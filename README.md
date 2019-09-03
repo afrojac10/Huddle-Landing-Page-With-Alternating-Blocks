@@ -72,4 +72,4 @@ I have commented my CSS to aid in better reading and understanding
  
  If your a hirer and loves this work then reach out to me i will be able to start work as a Jnr :)
 
-**Note: This is the first release of the challange and future update wil still be provided.**
+**Note: This is the first release of the challange and future update will still be provided.**
