@@ -1,0 +1,478 @@
+   /*********** Imported Font Folder ***********/
+   @font-face{font-family:'Poppins';src:url("Fonts/Poppins/Poppins-SemiBold.woff");src:local("☺"),url("Fonts/Poppins/Poppins-SemiBold.woff") format("woff");
+    
+   }
+   
+   @font-face{font-family:'Open Sans';src:url("Fonts/OpenSans/OpenSans-Regular.woff");
+   font-weight: 400,700;
+   font-size: 18px;
+   }     /**** Check the Fonts Folders****/
+   
+    /*** All Styling Was Done On Mobile Approach First ***/
+
+   /***** General Declaration*****/
+   *{
+    box-sizing: border-box;
+}
+
+html{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    font-family: 'Poppins';
+    color: hsl(193, 100%, 9%);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+p{
+    font-family: "Open Sans";
+    color: hsl(208, 11%, 55%);
+    font-size: 17px;
+} /***** End****/
+
+/**** Hero Section Declaration ****/
+.hero-text{
+    color:hsl(193, 100%, 9%);
+}
+
+.hero-p{
+    color: hsl(193, 100%, 9%);
+    margin-bottom: 40px;
+    margin-top:25px;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Open Sans";
+}
+
+.logo{
+    width:130px;
+} /**** End ****/
+
+            /***** Hero Container *****/
+/***** Main Styling Of Hero Section *****/
+.container{
+    margin:2em;
+    text-align: center;
+    background-image: url(./images/bg-hero-mobile.svg);
+    background-size: cover;
+    padding: 2em;
+    margin: 0px;
+    background-size: 100% 100%;
+    background-color:hsl(193, 100%, 96%);
+    /*background-color:#eafaff;*/
+    width:100%;
+    background-attachment: fixed;
+    box-sizing: border-box;
+} /**** End Of Main Styling ****/
+
+/***** Alignment Of Logo & White Cta ****/
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: .2em;
+    margin: -15px 0 0 auto;
+} /*** End ***/
+
+/***** White CTA Styling *****/
+.cta{
+background-color: #fff;
+display:block;
+width: calc(1em + 7em);
+border-radius: 23px;
+padding: 8px;
+font-size: .9em;
+color: hsl(193, 100%, 9%);
+text-transform: capitalize;
+margin-top: -0.2rem;
+} /*** End ***/
+
+/*** Modification to Hero Texts ***/
+
+.hero-text{
+    padding: .3em;
+    margin: 3.8em 0 2px auto;
+} /**** End ****/
+
+/**** Pink CTA ***/
+/*** Button>> Padding & BgColor Instead Of Button ***/
+
+.hero-action{
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 50px;
+    width: calc(1em + 280px);
+    display: block;
+    color: white;
+    padding:.5em;
+    font-size: 18px;
+    margin: 3% auto 7%;
+} /*** End ***/
+
+/**** Hero Image Style ****/ 
+.hero-img{
+    width: 20.3em; /** Image Size **/
+    display: block;
+    margin: 1.5em auto 0 auto; /** Align Img Center **/
+    background-attachment:fixed;
+} /*** End ***/
+
+/*** Container For Main Section ***/
+.container-2{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis:50%;
+    margin-right: 4.2em;
+} /** End **/
+
+/*** Style All Image In The Rounded Box ***/
+.img2{
+    width: 17em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+} /*** End **/
+
+/*** Main Styling Of Rounded Box ***/
+
+.grow div{
+    border-radius: 28px;
+    border-style: solid;
+    border-color:rgba(227, 235, 235, 0.532);
+    margin-bottom: 4em;
+    padding: 59px 20px 30px 20px;
+    flex-basis: calc(3.8em + 213px);
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+    margin: 5px 10px 58px 25px;
+    border-color:rgba(227, 235, 235, 0.534);
+    -webkit-box-shadow:3px 3px 5px 6px rgba(222, 232, 235, 0.308); 
+} /*** End ***/
+
+/*** Last Rounded Box Huge Bottom Spacing ***/
+.grow:last-of-type{
+    margin-bottom: 10.5em;
+} /** End **/
+
+
+/*** Main Styling Of Rounded Box Sitting On Footer ***/
+
+/*** Rounded Box Sitting On Footer ***/
+.down-box{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    margin-bottom: 2em;
+    text-align: center;
+    
+} /** 1st Part ~ Section Alignment **/
+
+/*** Rounded Box Sitting On Footer ***/
+
+/** 2nd Part ~ Styling **/
+
+.contain{
+    border-radius: 17px;
+    border-style: solid;
+    border-color:rgba(227, 235, 235, 0.532);
+    margin-bottom: 4em;
+    padding: .7em;
+    flex-basis: 100%;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+    margin-top: -7.9em;
+    margin-right: auto;
+    margin-left: auto;
+    border-color:#e2d9d92b;
+    -webkit-box-shadow:2px -1px 14px 3px rgba(232, 247, 247, 0.068);
+    background-color: #fff;
+} /** End **/
+
+/****** Footer Section *****/
+
+/*** Footer BgColor ***/
+.footer-padding{
+    background-color: hsl(192, 100%, 9%);
+    box-sizing: border-box;
+    color:white;
+    padding: 18px;
+    margin:0;
+} /*** End ***/
+
+/*** Footer Text Color ***/
+.footer-text{
+    color:#fff;
+} /** End **/
+
+/*** Footer Logo ***/
+.footer-logo{
+    width:170px;
+    margin-bottom: 20px;
+} /** End **/
+
+/*** Footer CTA Color ***/
+.footer-cta {
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 50px;
+    width: 12em;
+    display: block;
+    color: white;
+    padding:.5em;
+    font-size: 18px;
+    margin: 3% auto 7%;
+} /** End **/
+
+
+/*** Footer Contact ***/
+.location-p{
+    margin-bottom: 28px;
+    width: 325px;
+}
+
+.phone{
+    margin-bottom: 32.5px;
+    margin-top: 4.9em;
+}
+
+.email{
+    margin-bottom: 34px;
+    margin-top: -1.05em;
+}
+
+.location,
+.icon-phone,
+.icon-email{
+    margin-right: 23px;
+    margin-top:9px;
+}
+
+.location{
+    width:18px;
+    height: 28px;
+}
+
+.colum_1,
+.colum_2{
+    margin-left: 0;
+}
+
+.colum_1{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 65px;
+}
+
+.location-p{
+    height: 1px;
+}
+
+.location-p,
+.phone,
+.email{
+    color: #fff;
+    font-size:15.5px;
+}
+
+.phone,
+.email{
+    padding:3px;
+}
+
+.phone a,
+.email a{
+    color:white;
+    text-decoration:none;
+} /** End **/
+
+
+/*** Footer Navigation ***/
+.footer-nav ul{
+    color:#fff;
+    padding: 0;
+    margin: 53px 0;
+    font-family: "Open Sans";
+}
+
+/*** Alignment ***/
+.footer-nav ul li{
+    list-style-type: none;
+    display:flex;
+    flex-flow: row nowrap;
+    margin-bottom: 30px;
+    justify-content: flex-start;
+   align-content: flex-start;
+   box-sizing: none;
+   position:relative;
+}
+
+.main-footer{
+    padding:1.5px;
+} /*** End ~ Nav ***/
+
+/*** Social Icons ***/
+
+/*** Social Icons ~ Section Styling ***/
+.social-icons{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20px;
+}/** End ~ Section **/
+
+
+/*** Facebook Styling ***/
+.fa-facebook-f{
+    border:1px white solid;
+    border-radius: 100%;
+    padding: 8.5px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+} /** End **/
+
+/*** Twitter Styling ***/
+.fa-twitter{
+    border:1px white solid;
+    border-radius: 100%;
+    padding: 8px;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+} /** End **/
+
+/*** Instagram Styling ***/
+.fa-instagram{
+    border:1px white solid;
+    border-radius: 100%;
+    padding: 8px ;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+} /** End **/
+
+i{
+    padding: 1rem;
+} /** End ~ Socials **/
+
+            /*** Copyright Section ***/
+/*** Main Copyright ***/
+.copyright{
+    font-size:13px;
+    text-align: center;
+}
+
+/*** Challenge Copyright ***/
+.end{
+    font-size:12px;
+    text-align:center;
+    padding: 15px;
+} 
+
+/*** Link Color ***/
+.link_color{
+    color:wheat;
+} /** End Copyright **/
+
+        /*** Responsiveness For Screens => 1200px ***/
+
+ /** Not Very Responsive (Aligned) According To Design But Still
+  Okay!! ~ Will Work On It And Post A Future Update **/
+
+@media screen and (min-width:1200px){
+    /**** Hero Image Style ****/ 
+    .hero-img{
+        display: flex;
+        justify-content: flex-end;
+        margin: -143px 0 0 43%;
+        vertical-align: middle;
+        padding:0;
+        width: 37em;
+    } /*** End ***/
+
+    /*** Modification to Hero Texts ***/
+    .hero-text .flex{
+        background-image:url(./images/bg-hero-desktop.svg);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+       flex-flow: nowrap;
+       flex-wrap: nowrap;    
+    } 
+
+    .hero-text h1{
+        text-align:left;
+        font-size:40px; 
+    }
+
+        .hero-p{
+            font-size: 23px;
+            text-align: left;
+            margin-bottom: 27px;
+            max-width:41%;
+            margin-top: 140px;
+        } 
+        .hero-text >div{
+            justify-content: flex-end;
+        } /**** End Of Hero Text Mod ****/
+
+        /*** Modification For White Header CTA ***/
+        .cta{
+            flex-wrap: nowrap;
+        } /** End **/
+
+        /**** Pink CTA Mod ***/
+        .hero-action{
+            justify-content: flex-start;
+            margin: 0;
+        } /** End **/
+
+        /***** Mod ~ Styling Of Hero Section *****/
+    .container{
+        background-image:url(./images/bg-hero-desktop.svg);
+    } /** End **/
+
+    /** Position Mod On Image In Rounded Box ~ Main Section **/
+    .img_1{
+        margin-right: 0;
+    }
+
+    .img_2{
+        margin-left: 0;
+    }
+
+    .img_3{
+        margin-right: 0;
+    } /** End **/
+
+    /*** Mod ~ Rounded Box Sitting On Footer ***/
+    .contain{
+        width: 39em;
+    } /** End **/
+
+    /** Mod ~ Copyright **/
+    .copyright .end{
+      text-align: center;
+    }
+
+    ul{
+        display: inline;
+    } /** End **/
+
+} /** End ~ Responsiveness **/
