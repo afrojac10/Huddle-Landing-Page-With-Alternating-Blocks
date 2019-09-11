@@ -333,31 +333,8 @@ margin-top: -0.2rem;
     flex-basis: 20px;
 }/** End ~ Section **/
 
-
-/*** Facebook Styling ***/
-.fa-facebook-f{
-    border:1px white solid;
-    border-radius: 100%;
-    padding: 8.5px;
-    text-align: center;
-    width: 35px;
-    height: 35px;
-    margin: 5px;
-} /** End **/
-
-/*** Twitter Styling ***/
-.fa-twitter{
-    border:1px white solid;
-    border-radius: 100%;
-    padding: 8px;
-    margin: 5px;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-} /** End **/
-
-/*** Instagram Styling ***/
-.fa-instagram{
+/*** Social Icons Styling ***/
+.fab{
     border:1px white solid;
     border-radius: 100%;
     padding: 8px ;
@@ -400,10 +377,12 @@ i{
     .hero-img{
         display: flex;
         justify-content: flex-end;
-        margin: -143px 0 0 43%;
+        margin: /*-230px -148px 0 400px;*/-230px -75px 0 400px;
         vertical-align: middle;
-        padding:0;
-        width: 37em;
+        padding:10px;
+        width: 750px;
+        position:relative;
+        top: -30px;
     } /*** End ***/
 
     /*** Modification to Hero Texts ***/
@@ -416,9 +395,18 @@ i{
        flex-wrap: nowrap;    
     } 
 
+    .textAlign{
+        margin-top:120px;
+        position: relative;
+        bottom:20px;
+        max-width:1020px;
+    }
+
     .hero-text h1{
         text-align:left;
         font-size:40px; 
+        height:20px;
+        width:530px;
     }
 
         .hero-p{
@@ -426,7 +414,7 @@ i{
             text-align: left;
             margin-bottom: 27px;
             max-width:41%;
-            margin-top: 140px;
+            margin-top: 115px;
         } 
         .hero-text >div{
             justify-content: flex-end;
@@ -446,6 +434,8 @@ i{
         /***** Mod ~ Styling Of Hero Section *****/
     .container{
         background-image:url(./images/bg-hero-desktop.svg);
+        max-width:1700px;
+        box-sizing: border-box;
     } /** End **/
 
     /** Position Mod On Image In Rounded Box ~ Main Section **/
@@ -467,12 +457,68 @@ i{
     } /** End **/
 
     /** Mod ~ Copyright **/
-    .copyright .end{
+    .copyright, .end{
       text-align: center;
+      position: absolute;
+      top:180px;
+      right: 0;
+      /*bottom: 3px;*/
+    }
+
+    .copyright{
+        margin-top:-8px;
     }
 
     ul{
-        display: inline;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:100%;
+        padding-left:0;
+
     } /** End **/
 
+    .footer{
+        display: flex;
+        position: relative;
+    }
+
+    .colum_1,.colum_2{
+        justify-content: flex-start;
+    }
+
+    .footer-logo{
+        width: 159px;
+        margin: 0;
+        height: 35px;
+        position: relative;
+        bottom:100px;
+    }
+
+    .align{
+        position: absolute;
+        left: 10px;
+    }
+
+    .navLeft li{
+        left:380px;
+        position: relative;
+        display: inline-block;
+        width: calc(100% /2);
+        height:18px;
+        text-align: center;
+    }
+
+    .social-icons{
+        position: relative;
+        left: 500px;
+        bottom:70px;
+    }
+
+    .list1:nth-of-type(1) {order:;}
+    .list1:nth-of-type(2) {order:;}
+    .list1:nth-of-type(3) {order:;}
+    .list1:nth-of-type(4) {order:;}
+    .list1:nth-of-type(5) {order:;}
+    .list1:nth-of-type(6) {order:;}
 } /** End ~ Responsiveness **/
