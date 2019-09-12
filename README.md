@@ -42,12 +42,12 @@ Some Issues Are
 
 ** First Note That The Bugs Are Only Visibe On A Desktop/Laptop Screen => 1200px **
 
-1. Footer: ON screen =>At 1200px or above the footer still looks same as a mobile site.
+1. Footer: ON screen =>At 1200px or above the footer still looks same as a mobile site. (Fixed)
 
-2. The Hero Section not realy scaled well according to design but still looks good so no worries :)
+2. The Hero Section not realy scaled well according to design but still looks good so no worries :) (Fixed)
 
 3. Also the main section the 'rounded box like stuff' appears to be big and text are not in the right place, but i did try my best to
-fit in the images well.
+fit in the images well. (In progress)
 
 All other bugs not mentioned here are not known by me, do tell me if it scaled badly on your mobile, if possibe i would love to 
 know 
