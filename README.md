@@ -1,6 +1,9 @@
 # Huddle Landing Page With Alternating Blocks
 ### Completion of the Huddle Challange From [FrontendMentor] (https://www.frontendmentor.io)
 
+View live site here: https://afrojac10.github.io/huddle-landing-page
+
+
 **To Who It May Concearn**
 1. Approach of making
 2. Resources Used
@@ -57,6 +60,8 @@ know
 
 You can send in a mail to webdev@afrojac10.com, and i will do my best to answer, also contact me
 if you need any help.
+
+View live site here: https://afrojac10.github.io/huddle-landing-page
 
 *Extra Guide:*
 I have commented my CSS to aid in better reading and understanding
